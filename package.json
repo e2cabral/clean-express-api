@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Edson Cabral <edson.cabral@trescon.com.br>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/main/server.ts"
+  },
   "dependencies": {
     "@types/mongoose": "^5.7.36",
     "express": "^4.17.1",
