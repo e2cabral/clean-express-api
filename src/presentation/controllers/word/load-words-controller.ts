@@ -1,5 +1,5 @@
 import { HttpRequest, HttpResponse } from '../../protocols/http';
-import { Controller } from './../../protocols/controller';
+import { Controller } from '../../protocols/controller';
 
 export class LoadWordsController implements Controller {
 
